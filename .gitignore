@@ -1,0 +1,27 @@
+# dependencias
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts.bak
+
+# carpetas nativas generadas (se crean con prebuild / EAS)
+/android
+/ios
+
+# llaves y certificados
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.keystore
+credentials.json
+
+# varios
+.DS_Store
+npm-debug.*
+*.log
+.env*.local

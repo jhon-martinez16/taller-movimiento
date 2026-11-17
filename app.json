@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "Taller de Movimiento",
+    "slug": "taller-movimiento",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "tallermovimiento",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.jhonmartinez.tallermovimiento",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.jhonmartinez.tallermovimiento",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#17140F"
+      }
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#F3ECDD",
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 180
+        }
+      ],
+      [
+        "expo-sensors",
+        {
+          "motionPermission": "Taller de Movimiento usa el acelerómetro para detectar cuando sacudes el celular."
+        }
+      ]
+    ]
+  }
+}
