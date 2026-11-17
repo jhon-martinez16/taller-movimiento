@@ -41,6 +41,12 @@
           "motionPermission": "Taller de Movimiento usa el acelerómetro para detectar cuando sacudes el celular."
         }
       ]
-    ]
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "01d2bf02-be3d-4efc-8d1e-be578f67010a"
+      }
+    }
   }
 }
